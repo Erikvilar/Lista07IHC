@@ -1,0 +1,63 @@
+.main{
+
+}.main .section1{
+    background-color:rgb(255, 255, 255);
+    width: 100%;
+
+    
+
+}.main .section1 div div{
+    display: flex;
+    
+    justify-content: start;
+    flex-direction: column;
+
+}
+.main p{
+    font-family: "Open-Sans",sans-serif;
+    line-height: 28px;
+}.main section {
+   
+    padding-bottom: 80px;
+}
+.main h2{
+    font-size: 45px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 800;
+    text-align: center;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/021/224/158/original/glowing-green-computer-data-stream-binary-code-ones-and-zeros-moving-towards-the-camera-this-modern-data-technology-motion-background-animation-is-full-hd-and-a-seamless-loop-free-video.jpg");
+    background-clip: text; /* Funciona em navegadores modernos */
+    color: transparent;
+    text-transform: uppercase;
+}
+
+.main .section2{
+    background-color:rgb(0, 0, 0);
+    color:white;
+    width: 100%;
+   
+}.section2 ul li{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    
+    font-family: "Open-Sans",sans-serif;
+    list-style:square;
+
+}
+.main .section2 h2{
+  
+    color:rgba(232, 232, 232, 0.952);
+ 
+   
+}
+.main .section3{
+    background-color:rgb(255, 255, 255);
+    width: 100%;
+    
+}.section3 p{
+    padding: 0px;
+    text-align: justify;
+   
+}

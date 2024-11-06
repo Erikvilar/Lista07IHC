@@ -1,0 +1,20 @@
+.Palestras{
+    width: 100%;
+
+}.person img{
+    border-radius: 360px;
+    height: 200px;
+    width: 200px;
+    
+}.person{
+    text-align: center;
+}.boxPresentation{
+    padding-top: 80px;
+    width: 800px;
+    height: 500px;
+    border: 2px solid red;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}

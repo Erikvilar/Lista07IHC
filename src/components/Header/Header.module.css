@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.Header {
+  background-image: url("https://goias.gov.br/fapeg/wp-content/uploads/sites/5/2024/10/WhatsApp-Image-2024-10-30-at-15.22.19-scaled.jpeg");
+  background-size: 100%, 100%;
+  height: 800px;
+  
+  background-repeat: no-repeat;
+}
+.Header div {
+  width: 900px;
+  height: 500px;
+  margin: auto;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Header .backdrop {
+  backdrop-filter: blur(5px);
+  width: 100%;
+  height: 800px;
+}
+.backdrop div h1 {
+  font-size: 65px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 800;
+  text-align: center;
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/021/224/158/original/glowing-green-computer-data-stream-binary-code-ones-and-zeros-moving-towards-the-camera-this-modern-data-technology-motion-background-animation-is-full-hd-and-a-seamless-loop-free-video.jpg");
+  background-clip: text; /* Funciona em navegadores modernos */
+  color: transparent;
+  text-transform: uppercase;
+}.he
+
+.Header nav {
+  width: 100%;
+  position: fixed;
+
+  z-index: 1;
+  background-color: rgb(255, 255, 255);
+  height: 50px;
+}.Header button{
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 50px;
+    background-color:#78de38 ;
+    color:white;
+    margin-top: 100px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 0.3s;
+}.Header button:active{
+    color:#78de38;
+    background-color:white;
+    transform: scale(1.05);
+}.sobre{
+   
+    font-size: 22px;
+    font-family: "Roboto",sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 20px white;
+}
