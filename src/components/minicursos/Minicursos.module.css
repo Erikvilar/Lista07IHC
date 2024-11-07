@@ -1,0 +1,32 @@
+.boxMinicursos{
+    
+}
+.boxMinicursos h2{
+    font-size: 45px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 800;
+    text-align: center;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/021/224/158/original/glowing-green-computer-data-stream-binary-code-ones-and-zeros-moving-towards-the-camera-this-modern-data-technology-motion-background-animation-is-full-hd-and-a-seamless-loop-free-video.jpg");
+    background-clip: text; /* Funciona em navegadores modernos */
+    color: transparent;
+    text-transform: uppercase;
+}.accordionCustom button{
+    background-color:#789DBC;
+    color: rgb(0, 0, 0);
+    height: 95px;
+
+
+
+}.accordionCustom button{
+    background-color:#FEF9F2;
+
+
+
+}
+.accordionCustom{
+    height: 50px;
+
+
+}

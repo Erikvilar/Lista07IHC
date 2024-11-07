@@ -1,20 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Saira:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 .Palestras{
     width: 100%;
+    flex-direction: column;
 
 }.person img{
     border-radius: 360px;
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
+
     
 }.person{
     text-align: center;
+    padding-right: 20px;
 }.boxPresentation{
     padding-top: 80px;
-    width: 800px;
+    width: 900px;
     height: 500px;
-    border: 2px solid red;
+    border-top: 2px solid gray ;
     margin: auto;
     display: flex;
     justify-content: space-between;
+
+}.about{
+    width: 700px;
+
+
+}.about span{
+    font-size: 25px;
+    font-family: "Roboto",sans-serif;
+    color: rgb(100, 99, 99);
+}.Palestras h2{
+    font-size: 45px;
+  
+    padding-top: 60px;
+    padding-bottom: 50px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 800;
+    text-align: center;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/021/224/158/original/glowing-green-computer-data-stream-binary-code-ones-and-zeros-moving-towards-the-camera-this-modern-data-technology-motion-background-animation-is-full-hd-and-a-seamless-loop-free-video.jpg");
+    background-clip: text; /* Funciona em navegadores modernos */
+    color: transparent;
+    text-transform: uppercase;
+}.boxAbout{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+.boxAbout div{
+    width: 200px;
+    height: 250px;
+    padding: 8px;
+  border-radius: 20px;
+  margin: 2px;
+}.boxAbout div h3{
+    font-family: "Roboto",sans-serif;
+    font-size: 18px;
+    text-shadow: 0px 0px 1px #464545;
+    padding-top: 12px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #295429;
+}.boxAbout div p{
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    padding-top: 10px;
+    font-family: "Montserrat",sans-serif;
+    color: rgb(67, 44, 44);
 
 }

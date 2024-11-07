@@ -4,10 +4,12 @@ function Header() {
   return (
     <section className={style.Header}>
       <nav style={{ padding: 5 }}>
+        <a href="#">
         <img
           src="https://iftm.edu.br/conerer/img/Horizontal%20resumida.png"
           width={100}
         />
+        </a>
       </nav>
       <div className={style.backdrop}>
         <div>
